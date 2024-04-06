@@ -1,0 +1,7 @@
+name: mw
+
+# parameter data root
+param:
+  data_root: param_data/mw/data.pt
+  k: 256
+  num_workers: 4

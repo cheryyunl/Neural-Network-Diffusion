@@ -1,5 +1,5 @@
 defaults:
-  - task: cifar100
+  - task: mw
   - system: autoencoder
   - _self_
 
@@ -14,7 +14,7 @@ mode: train
 seed: 42
 process_title: p-diff
 
-output_dir: outputs/cifar100
+output_dir: outputs/mw
 
 hydra:
   output_subdir: config
